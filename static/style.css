@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5rem; /* Aumenta o padding do cabeçalho */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Aumenta o tamanho do título */
+    margin: 0;
+}
+
+.boas_vindas{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    font-size: 1.2rem; /* Aumenta o tamanho dos links do menu */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Aumenta o padding dos links */
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #004494;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem; /* Aumenta o tamanho dos subtítulos */
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem; /* Aumenta o tamanho das labels dos formulários */
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 0.75rem; /* Aumenta o padding dos campos de entrada */
+    font-size: 1rem; /* Aumenta o tamanho do texto dos campos de entrada */
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte dos botões */
+    padding: 0.75rem 1.5rem; /* Aumenta o padding dos botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
